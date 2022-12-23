@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.navbar {
+    color: white;
+    background-color: #D32F2F;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.senha {
+    width: 60%;
+    margin-top: 12%;
+    text-align: center;
+    font-size: 120px;
+    font-family:'Roboto', 'sans-serif';
+    font-weight: 900;
+    background-color: #B71C1C;
+    color: white;
+}
+
+.senhaChamada {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 2%;
+    width: 35%;
+    margin-top: 5%;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #E0E0E0;
+    color: coral;
+}

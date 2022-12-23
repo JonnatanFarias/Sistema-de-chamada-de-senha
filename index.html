@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de senhas</title>
+    <link href="./css/style.css" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+        <!-- As a heading -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Sistema de chamada de senhas</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class=senha>
+            <div>
+                <span id="texto">SENHA:</span>
+                <span id="NP">NP</span>
+                <span id="ContadorSenha">0000</span>
+                <div class="senhaP">
+                    <span id="textoP">SENHA:</span>
+                    <span id="P">P</span>
+                    <span id="ContadorSenhaP">0000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="senhaChamada">
+            <h2>CHAMADA ANTERIOR</h2>
+            <br>
+            <span style="color:#B71C1C;">SENHA NP:</span>
+            <span id="SenhaAnteriorNP">0000</span>
+            <span style="color:#B71C1C;">SENHA P:</span>
+            <span id="SenhaAnteriorP">0000</span>
+        </div>
+          
+          <audio id="audioChamada" src="./sound/chamada.wav"></audio>
+    </main>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
